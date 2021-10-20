@@ -5,7 +5,7 @@
  */
 package formularios;
 
-import conexionSQL.conexionSQL;
+import clases.conexionSQL;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import javax.swing.JButton;
