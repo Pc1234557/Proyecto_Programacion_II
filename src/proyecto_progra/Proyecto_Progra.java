@@ -5,6 +5,8 @@
  */
 package proyecto_progra;
 
+import conexionSQL.conexionSQL;
+
 /**
  *
  * @author Pcortez
@@ -16,6 +18,11 @@ public class Proyecto_Progra {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        conexionSQL c = new conexionSQL();
+        if(c.conectar!=null){
+            System.out.println("Conexion Exitosa");
+        }
     }
     
 }
