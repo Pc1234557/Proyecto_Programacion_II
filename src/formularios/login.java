@@ -5,7 +5,7 @@
  */
 package formularios;
 
-import conexionSQL.conexionSQL;
+import clases.conexionSQL;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -113,7 +113,7 @@ public class login extends javax.swing.JFrame {
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 70, 340, 420));
 
-        jPanel1.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel1.setBackground(new java.awt.Color(153, 153, 153));
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/logo1.png"))); // NOI18N
 
@@ -176,7 +176,7 @@ public class login extends javax.swing.JFrame {
                 this.dispose();
             }
             }else{
-            JOptionPane.showMessageDialog(null, "Error De Acceso" );
+            JOptionPane.showMessageDialog(null, "Error Usuario o Contraseña Incorrectos" );
             }
             
            
