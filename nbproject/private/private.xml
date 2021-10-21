@@ -4,12 +4,11 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/Pcortez/Desktop/Proyecto_Programacion_II/src/formularios/login.java</file>
-            <file>file:/C:/Users/Pcortez/Desktop/Proyecto_Programacion_II/src/clases/conexionSQL.java</file>
             <file>file:/C:/Users/Pcortez/Desktop/Proyecto_Programacion_II/src/clases/GUsuarios.java</file>
-            <file>file:/C:/Users/Pcortez/Desktop/Proyecto_Programacion_II/src/formularios/sistema.java</file>
+            <file>file:/C:/Users/Pcortez/Desktop/Proyecto_Programacion_II/src/clases/conexionSQL.java</file>
+            <file>file:/C:/Users/Pcortez/Desktop/Proyecto_Programacion_II/src/formularios/GUsuarios.java</file>
             <file>file:/C:/Users/Pcortez/Desktop/Proyecto_Programacion_II/src/formularios/GestionUs.java</file>
-            <file>file:/C:/Users/Pcortez/Desktop/Proyecto_Programacion_II/src/formularios/usuarios.java</file>
-            <file>file:/C:/Users/Pcortez/Desktop/Proyecto_Programacion_II/src/proyecto_progra/Proyecto_Progra.java</file>
+            <file>file:/C:/Users/Pcortez/Desktop/Proyecto_Programacion_II/src/clases/ClienteDao.java</file>
         </group>
     </open-files>
 </project-private>

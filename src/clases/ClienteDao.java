@@ -27,7 +27,7 @@ public class ClienteDao {
     public boolean RegistrarCliente(Cliente cl){
     String sql = "INSERT INTO clientes (NIT, nombre, telefono, direccion) VALUES (?,?,?,?)";
         try{
-            con = cn.getConnection();
+            con = cn.conexion();
             ps = con.prepareStatement(sql);
             ps.setInt(1, cl.getNIT());
             ps.setString(2, cl.getNombre());
@@ -51,7 +51,7 @@ public class ClienteDao {
         List<Cliente> ListaCl =new ArrayList();
         String sql = "SELECT * FROM clientes";
         try {
-            con = cn.getConnection();
+            con = cn.conexion();
             ps = con.prepareStatement(sql);
             rs = ps.executeQuery();
             while (rs.next()){
